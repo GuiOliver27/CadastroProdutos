@@ -48,6 +48,22 @@ app.MapGet("/produtos", () => {
     return produtos;
 });
 
+app.MapGet("/produtos/{id}", (int id) =>
+{
+    var produto = produtos.FirstOrDefault(x => x.Id == id);
+
+    return produto is not null
+        ? Results.Ok(produto)
+        : Results.NotFound($"Produto com ID {id} não encontrado");
+});
+
+app.MapPost("/produtos", (Produto novoProduto) =>
+{
+    produtos.Add(novoProduto);
+
+    return Results.Created();
+});
+
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
