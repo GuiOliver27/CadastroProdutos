@@ -64,6 +64,34 @@ app.MapPost("/produtos", (Produto novoProduto) =>
     return Results.Created();
 });
 
+app.MapPut("/produtos/{id}", (int id, Produto produtoAtualizado) =>
+{
+   var produto = produtos.FirstOrDefault(x => x.Id == id);
+   if (produto is null)
+   {
+        return Results.NotFound($"Produto com ID {id} não encontrado.");
+   }
+
+   produto.Nome = produtoAtualizado.Nome;
+   produto.Preco = produtoAtualizado.Preco;
+   produto.Estoque = produtoAtualizado.Estoque;
+
+   return Results.Ok(produto);
+});
+
+app.MapDelete("/produtos/{id}", (int id) =>
+{
+   var produto = produtos.FirstOrDefault(x => x.Id == id);
+
+   if (produto is null)
+    {
+        return Results.NotFound($"Produto com ID {id} não encontrado.");
+    }
+
+    produtos.Remove(produto);
+    return Results.NoContent();
+});
+
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
