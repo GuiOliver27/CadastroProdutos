@@ -19,6 +19,7 @@ D:\Desenvolvimento\Udemy\CadastroProdutos\CadastroProdutos\obj\Debug\net9.0\Cada
 D:\Desenvolvimento\Udemy\CadastroProdutos\CadastroProdutos\obj\Debug\net9.0\CadastroProdutos.csproj.CoreCompileInputs.cache
 D:\Desenvolvimento\Udemy\CadastroProdutos\CadastroProdutos\obj\Debug\net9.0\CadastroProdutos.MvcApplicationPartsAssemblyInfo.cs
 D:\Desenvolvimento\Udemy\CadastroProdutos\CadastroProdutos\obj\Debug\net9.0\CadastroProdutos.MvcApplicationPartsAssemblyInfo.cache
+D:\Desenvolvimento\Udemy\CadastroProdutos\CadastroProdutos\obj\Debug\net9.0\CadastroProdutos.sourcelink.json
 D:\Desenvolvimento\Udemy\CadastroProdutos\CadastroProdutos\obj\Debug\net9.0\rjimswa.dswa.cache.json
 D:\Desenvolvimento\Udemy\CadastroProdutos\CadastroProdutos\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 D:\Desenvolvimento\Udemy\CadastroProdutos\CadastroProdutos\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
@@ -34,4 +35,3 @@ D:\Desenvolvimento\Udemy\CadastroProdutos\CadastroProdutos\obj\Debug\net9.0\refi
 D:\Desenvolvimento\Udemy\CadastroProdutos\CadastroProdutos\obj\Debug\net9.0\CadastroProdutos.pdb
 D:\Desenvolvimento\Udemy\CadastroProdutos\CadastroProdutos\obj\Debug\net9.0\CadastroProdutos.genruntimeconfig.cache
 D:\Desenvolvimento\Udemy\CadastroProdutos\CadastroProdutos\obj\Debug\net9.0\ref\CadastroProdutos.dll
-D:\Desenvolvimento\Udemy\CadastroProdutos\CadastroProdutos\obj\Debug\net9.0\CadastroProdutos.sourcelink.json
