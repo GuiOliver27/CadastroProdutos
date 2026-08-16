@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\CadastroProdutos.csproj": {}
+    "d:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\CadastroProdutos.csproj": {}
   },
   "projects": {
-    "D:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\CadastroProdutos.csproj": {
+    "d:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\CadastroProdutos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\CadastroProdutos.csproj",
+        "projectUniqueName": "d:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\CadastroProdutos.csproj",
         "projectName": "CadastroProdutos",
-        "projectPath": "D:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\CadastroProdutos.csproj",
+        "projectPath": "d:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\CadastroProdutos.csproj",
         "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
-        "outputPath": "D:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\obj\\",
+        "outputPath": "d:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

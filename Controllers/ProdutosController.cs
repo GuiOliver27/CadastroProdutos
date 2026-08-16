@@ -7,7 +7,13 @@ namespace CadastroProdutos.Controllers;
 [ApiController]
 public class ProdutosController : ControllerBase
 {
-    private ProdutosService produtosService = new ProdutosService();
+    private IProdutosService produtosService;
+
+    public ProdutosController(IProdutosService produtosService)
+    {
+        this.produtosService = produtosService;
+    }
+
    [HttpGet]
     public ActionResult<List<Produto>> Get()
     {
