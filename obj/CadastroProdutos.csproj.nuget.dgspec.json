@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\CadastroProdutos.csproj": {}
+    "D:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\CadastroProdutos.csproj": {}
   },
   "projects": {
-    "d:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\CadastroProdutos.csproj": {
+    "D:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\CadastroProdutos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\CadastroProdutos.csproj",
+        "projectUniqueName": "D:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\CadastroProdutos.csproj",
         "projectName": "CadastroProdutos",
-        "projectPath": "d:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\CadastroProdutos.csproj",
+        "projectPath": "D:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\CadastroProdutos.csproj",
         "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
-        "outputPath": "d:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\obj\\",
+        "outputPath": "D:\\Desenvolvimento\\Udemy\\CadastroProdutos\\CadastroProdutos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net9.0": {
@@ -56,9 +56,31 @@
               "target": "Package",
               "version": "[9.0.18, )"
             },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[10.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.18, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[9.0.6, )"
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.119, )"
             }
           },
           "imports": [
@@ -80,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
