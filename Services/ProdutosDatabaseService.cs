@@ -20,12 +20,24 @@ public class ProdutosDatabaseService : IProdutosService
 
     public Produto Atualizar(int id, Produto produtoAtualizado)
     {
-        throw new NotImplementedException();
+        var produto = banco.Produtos.FirstOrDefault(x => x.Id == id);
+        if (produto is null)
+        {
+            return null;
+        }
+
+        produto.Nome = produtoAtualizado.Nome;
+        produto.Preco = produtoAtualizado.Preco;
+        produto.Estoque = produtoAtualizado.Estoque;
+
+        banco.SaveChanges();
+
+        return produto;
     }
 
     public Produto ObterPorId(int id)
     {
-        throw new NotImplementedException();
+        return banco.Produtos.FirstOrDefault(x => x.Id == id);
     }
 
     public List<Produto> ObterTodos()
@@ -35,6 +47,17 @@ public class ProdutosDatabaseService : IProdutosService
 
     public bool Remover(int id)
     {
-        throw new NotImplementedException();
+        var produto = banco.Produtos.FirstOrDefault(x => x.Id == id);
+
+        if (produto is null)
+        {
+            return false;
+        }
+
+        banco.Produtos.Remove(produto);
+
+        banco.SaveChanges();
+
+        return true;
     }
 }
